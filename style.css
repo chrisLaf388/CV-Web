@@ -6,46 +6,72 @@
 #softSkill{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
-.softSkill{
-    width: 100px;
+
+#softSkill ul{
+    padding: 0;
+}
+#softSkill li {
+    list-style: none;
+    text-align: center;
+}
+.articleSoftSkill{
+    border: solid;
+    width: 30vh;
+    border-radius: 30px;
+    background-color: orange;
 }
 .langues{
     display: flex;
-    width: 60px;
     align-items: center;
 }
+
 .langues img {
     border-radius: 90px;
-    width: 30px;
-    height: 30px;
+    width: 31px;
+    height: 31px;
     margin: 20 px;
-}
-
-.softSkill img {
-    border-radius: 90px;
-    width: 60px;
-}
-.softSkill {
-    border: solid;
-    width: 100%;
-    border-radius: 30px;
-    background-color: orange;
 }
 
 .loisirs  {
     border: solid;
-    width: 100%;
+    width: 30vh;
     border-radius: 30px;
     background-color: orange;
 }
 
-.langues img{
-    border-radius: 90px;
-    width: 60px;
+article.loisirs img {
+    width: 20%;
 }
 
-.softSkill h3 {
+.titre{
     text-align: center;
-    margin: 20px;
+}
+
+.titre h2{
+    padding: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: solid;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+}
+
+#adressEtBirthday{
+    columns: 1;
+}
+
+#photoMoi{
+    columns: 2;
+}
+#telEtMail{
+    columns: 1;
 }
