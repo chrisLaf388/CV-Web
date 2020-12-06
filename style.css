@@ -75,3 +75,7 @@ article.loisirs img {
 #telEtMail{
     columns: 1;
 }
+
+#parcours{
+    display : flex;
+}
