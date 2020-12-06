@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+#softSkill{
+    display: flex;
+    justify-content: space-between;
+}
+.softSkill{
+    width: 100px;
+}
+.langues{
+    display: flex;
+    width: 60px;
+    align-items: center;
+}
+.langues img {
+    border-radius: 90px;
+    width: 30px;
+    height: 30px;
+    margin: 20 px;
+}
+
+.softSkill img {
+    border-radius: 90px;
+    width: 60px;
+}
+.softSkill {
+    border: solid;
+    width: 100%;
+    border-radius: 30px;
+    background-color: orange;
+}
+
+.loisirs  {
+    border: solid;
+    width: 100%;
+    border-radius: 30px;
+    background-color: orange;
+}
+
+.langues img{
+    border-radius: 90px;
+    width: 60px;
+}
+
+.softSkill h3 {
+    text-align: center;
+    margin: 20px;
+}
